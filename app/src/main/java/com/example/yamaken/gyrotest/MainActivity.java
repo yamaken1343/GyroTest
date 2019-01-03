@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         stopButton = findViewById(R.id.stopButton);
 
         videoView = findViewById(R.id.video);
+//        参照: http://etc.dounokouno.com/testmovie/link/mpeg4.html
         videoView.setVideoURI(Uri.parse("http://etc.dounokouno.com/testmovie/mpeg4/testmovie-960x540.mp4"));
         videoView.setMediaController(new MediaController(this));
 
